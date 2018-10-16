@@ -1,11 +1,11 @@
-package com.bj.entity;
+package com.bj.cuser.entity;
 
 import java.util.Date;
 
 /**
  * Created by zhongzhaolong on 2018/10/14.
  */
-public class Dept {
+public class CUser {
     private String user_id;
     private String user_name;
     private String pass_word;

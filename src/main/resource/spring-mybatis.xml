@@ -36,14 +36,14 @@
         <property name="dataSource" ref="dataSource" />
         <property name="mapperLocations">
             <list>
-                <value>classpath*:com/bj/dao/*.xml</value>
+                <value>classpath*:com/bj/cuser/dao/*.xml</value>
             </list>
         </property>
     </bean>
 
     <!-- Mapper接口所在包名，Spring会自动查找其下的Mapper -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer"
-          p:basePackage="com.bj.dao"
+          p:basePackage="com.bj.*.dao"
           p:sqlSessionFactoryBeanName="sqlSessionFactory" />
 
     <!-- ===================================事务的配置================================== -->

@@ -6,7 +6,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Dept</title>
+    <title>Users</title>
 </head>
 <body>
 <table>
@@ -15,11 +15,11 @@
         <th>姓名</th>
         <th>密码</th>
     </tr>
-    <c:forEach var="dept" items="${depts}">
+    <c:forEach var="user" items="${users}">
         <tr>
-            <td><c:out value="${dept.id}"/></td>
-            <td><c:out value="${dept.name}"/></td>
-            <td><c:out value="${dept.password}"/></td>
+            <td><c:out value="${user.id}"/></td>
+            <td><c:out value="${user.name}"/></td>
+            <td><c:out value="${user.password}"/></td>
         </tr>
     </c:forEach>
 </table>
