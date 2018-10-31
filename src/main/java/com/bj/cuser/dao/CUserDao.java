@@ -6,5 +6,6 @@ import java.util.List;
  */
 public interface CUserDao {
     //查找所有内容
-    public List<CUser> findAll();
+    List<CUser> findAll();
+    List<CUser> findUserById(String id);
 }

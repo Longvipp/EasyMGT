@@ -10,4 +10,8 @@
     <select id="findAll"  resultMap="cuserAll">
         select * from user_login
     </select>
+    <!-- 查找 -->
+    <select id="findUserById"  parameterType="java.lang.String" resultMap="cuserAll">
+        select user_id as user_id,user_name as user_name,pass_word as pass_word,role as role from user_login where user_id = #{id}
+    </select>
 </mapper>

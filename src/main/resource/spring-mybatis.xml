@@ -36,7 +36,7 @@
         <property name="dataSource" ref="dataSource" />
         <property name="mapperLocations">
             <list>
-                <value>classpath*:com/bj/cuser/dao/*.xml</value>
+              <value>classpath*:com/bj/cuser/dao/*.xml</value>
             </list>
         </property>
     </bean>

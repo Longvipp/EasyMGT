@@ -9,6 +9,7 @@ public class CUser {
     private String user_id;
     private String user_name;
     private String pass_word;
+    private String role;//权限
 
     public String getId() {
         return user_id;
@@ -28,5 +29,10 @@ public class CUser {
     public void setPassword(String password) {
         this.pass_word = password;
     }
-
+    public String getRole() {
+        return this.role;
+    }
+    public void setRole(String role){
+        this.role = role;
+    }
 }

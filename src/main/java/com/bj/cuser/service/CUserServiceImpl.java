@@ -19,4 +19,10 @@ public class CUserServiceImpl implements CUserService {
     public List<CUser> findall() {
         return userDao.findAll();
     }
+    @Autowired
+    private CUserDao userinfoDao;
+    public List<CUser> getUserInfoById(String id) {
+        return userinfoDao.findUserById(id);
+    }
+
 }

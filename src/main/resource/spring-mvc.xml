@@ -61,6 +61,9 @@
     <!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
     <!-- <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"/> -->
 
+    <!-- 定义普通类获取bean的方法 -->
+    <bean id="SpringApplicationContext" class="com.bj.applicationContextHelper.ApplicationContextHelper"></bean>
+
     <!-- 注解探测器 -->
     <context:component-scan base-package="com.bj.*" />
     <mvc:default-servlet-handler/>

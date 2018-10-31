@@ -9,5 +9,6 @@ import java.util.List;
 public interface CUserService {
     //查找所有内容
     public List<CUser> findall();
+    public List<CUser> getUserInfoById(String id);
 }
 
