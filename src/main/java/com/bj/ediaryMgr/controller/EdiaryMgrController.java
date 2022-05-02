@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * Created by zhongzhaolong on 2022/05/02.
+ */
 @Controller
 @RequestMapping("/ediary_mgr")
 public class EdiaryMgrController {

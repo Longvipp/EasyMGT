@@ -3,5 +3,9 @@ package com.bj.ediaryMgr.Service;
 import java.util.List;
 
 public interface EdiaryMgrService {
-    public List<String> getEdiaryHisDataList();
+    /**
+     * 获取用户提交的ediary日记数据文件
+     * @return 历史数据
+     */
+    List<String> getEdiaryHisDataList();
 }
