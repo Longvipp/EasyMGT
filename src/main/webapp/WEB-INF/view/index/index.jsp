@@ -18,7 +18,7 @@
     <title>首页</title>
 </head>
 <body>
-<p>this is first page</p>
+<p>edary 数据同步管理</p>
 <button class="display_userinfo" >显示用户数据</button>
 </body>
 <script type="text/javascript" src="../../../resource/plugin/jQuery/jquery-3.3.1.min.js"></script>
